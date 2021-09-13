@@ -20,12 +20,12 @@
       <![CDATA[Test completed>>Reports generated]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16705" started-at="2021-09-12T10:59:48Z" finished-at="2021-09-12T11:00:05Z">
+  <suite name="Default suite" duration-ms="35471" started-at="2021-09-13T19:03:52Z" finished-at="2021-09-13T19:04:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16705" started-at="2021-09-12T10:59:48Z" finished-at="2021-09-12T11:00:05Z">
-      <class name="com.gp.testcases.LoginTestGP">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.gp.testcases.LoginTestGP@75c072cb]" name="setUpSuite" is-config="true" duration-ms="928" started-at="2021-09-12T10:59:47Z" finished-at="2021-09-12T10:59:48Z">
+    <test name="Default test" duration-ms="35471" started-at="2021-09-13T19:03:52Z" finished-at="2021-09-13T19:04:27Z">
+      <class name="com.gp.testcases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.gp.testcases.TC_AddCustomerTest_003@75c072cb]" name="setUpSuite" is-config="true" duration-ms="2557" started-at="2021-09-13T19:03:49Z" finished-at="2021-09-13T19:03:52Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reportsand test is getting ready]]>
@@ -35,7 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gp.testcases.LoginTestGP@75c072cb]" name="setUp" is-config="true" duration-ms="9369" started-at="2021-09-12T10:59:48Z" finished-at="2021-09-12T10:59:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gp.testcases.TC_AddCustomerTest_003@75c072cb]" name="setUp" is-config="true" duration-ms="22133" started-at="2021-09-13T19:03:52Z" finished-at="2021-09-13T19:04:14Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to start browser and getting application ready]]>
@@ -45,15 +45,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.gp.testcases.LoginTestGP@75c072cb]" name="loginApp" duration-ms="4881" started-at="2021-09-12T10:59:58Z" finished-at="2021-09-12T11:00:02Z">
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.gp.testcases.TC_AddCustomerTest_003@75c072cb]" name="addNewCustomer" duration-ms="7230" started-at="2021-09-13T19:04:14Z" finished-at="2021-09-13T19:04:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.gp.testcases.LoginTestGP@75c072cb]" name="teardown" is-config="true" duration-ms="1708" started-at="2021-09-12T11:00:02Z" finished-at="2021-09-12T11:00:04Z">
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.gp.testcases.TC_AddCustomerTest_003@75c072cb]" name="teardown" is-config="true" duration-ms="5177" started-at="2021-09-13T19:04:21Z" finished-at="2021-09-13T19:04:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestGP.loginApp()[pri:0, instance:com.gp.testcases.LoginTestGP@75c072cb] output={null}]]]>
+                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=TC_AddCustomerTest_003.addNewCustomer()[pri:0, instance:com.gp.testcases.TC_AddCustomerTest_003@75c072cb] output={null}]]]>
               </value>
             </param>
           </params>
@@ -66,11 +66,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gp.testcases.LoginTestGP@75c072cb]" name="tearDown" is-config="true" duration-ms="713" started-at="2021-09-12T11:00:04Z" finished-at="2021-09-12T11:00:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gp.testcases.TC_AddCustomerTest_003@75c072cb]" name="tearDown" is-config="true" duration-ms="711" started-at="2021-09-13T19:04:26Z" finished-at="2021-09-13T19:04:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.gp.testcases.LoginTestGP -->
+      </class> <!-- com.gp.testcases.TC_AddCustomerTest_003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

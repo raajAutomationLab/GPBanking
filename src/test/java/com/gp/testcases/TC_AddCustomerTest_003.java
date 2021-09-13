@@ -6,13 +6,11 @@ import org.testng.annotations.Test;
 import com.gp.pages.AddNeCustomerPage;
 import com.gp.pages.BaseClass;
 import com.gp.pages.LoginPage;
-import com.gp.utility.ExcelDataProvider;
-import com.gp.utility.Helper;
 
-public class LoginTestGP extends BaseClass {
+public class TC_AddCustomerTest_003 extends BaseClass{
 
 	@Test
-	public void loginApp() {
+	public void addNewCustomer() {
 		logger = report.createTest("Login to GP");
 
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
@@ -21,7 +19,7 @@ public class LoginTestGP extends BaseClass {
 		loginPage.loginToGP(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1));
 		logger.pass("Login done successfully");
 		
-	
+		AddNeCustomerPage addcus = PageFactory.initElements(driver, AddNeCustomerPage.class);
+		addcus.clickAddNewCustomerLink();
 	}
-
 }
