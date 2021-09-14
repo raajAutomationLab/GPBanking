@@ -6,6 +6,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -37,5 +38,14 @@ public class Helper {
 	Date currentDate = new Date();
 	return customFormat.format(currentDate);
 		
+	}
+	public String randomestring()
+	{
+		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		return(generatedstring);
+	}
+	public static String randomeNum() {
+		String generatedString2 = RandomStringUtils.randomNumeric(4);
+		return (generatedString2);
 	}
 }
